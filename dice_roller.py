@@ -1,5 +1,10 @@
-def main():
-  #print('You rolled a die')
+import random
+min=1
+max=6
 
-if __name__== "__main__":
-  main()
+while roll_dice = True:
+  print("Rolling a dice")
+  print("The values are")
+  result = random.randint(min, max)
+  print(result)
+  
